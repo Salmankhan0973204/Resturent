@@ -1,0 +1,39 @@
+{
+  "posts": [
+    {
+      "id": 9,
+      "name": "salman khan",
+      "email": "salman@gmail.com",
+      "mobile": "03334343434",
+      "address": "i-10",
+      "service": "chai"
+    }
+  ],
+  "signup": [
+    {
+      "name": "dfdsfdsf",
+      "email": "fgsfdg",
+      "mobile": "gfdg",
+      "password": "fdgsd",
+      "id": 1
+    },
+    {
+      "name": "trytr",
+      "email": "ytrye",
+      "mobile": "ytrytr",
+      "password": "ytryrey",
+      "id": 2
+    },
+    {
+      "name": "salman",
+      "email": "salman@123gmail.com",
+      "mobile": "03334343434",
+      "password": "123",
+      "id": 3
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}

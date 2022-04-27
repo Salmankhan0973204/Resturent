@@ -1,0 +1,32 @@
+<div class="container">
+  <div class="row">
+    <p>signup Form Form!</p>
+    <form [formGroup]="formValue" (ngSubmit)="signup()">
+
+    <div class="mb-3">
+      <label for="exampleInputPassword1" class="form-label">Name</label>
+      <input type="text" class="form-control" formControlName="name" id="exampleInputPassword1">
+    </div>
+
+  <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">Mobile Number</label>
+    <input type="text" class="form-control" formControlName="mobile"  id="exampleInputPassword1">
+  </div>
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label">Email address</label>
+        <input type="email" class="form-control" id="exampleInputEmail1" formControlName="email" aria-describedby="emailHelp">
+
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputPassword1" class="form-label">Password</label>
+        <input type="password" class="form-control" formControlName="password" id="exampleInputPassword1">
+      </div>
+
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    <a routerLink="/signup">
+      Already Member ? Click to Login
+          </a>
+  </div>
+</div>
+
